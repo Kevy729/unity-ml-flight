@@ -1,0 +1,75 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1657140266",
+        "python_version": "3.8.5 (default, Aug  5 2020, 09:44:06) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\kevs9\\anaconda3\\Scripts\\mlagents-learn 3DBall.yaml --force",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.2",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1657140278"
+    },
+    "total": 12.1524353,
+    "count": 1,
+    "self": 0.008498800000001694,
+    "children": {
+        "run_training.setup": {
+            "total": 0.14609990000000028,
+            "count": 1,
+            "self": 0.14609990000000028
+        },
+        "TrainerController.start_learning": {
+            "total": 11.9978366,
+            "count": 1,
+            "self": 0.0001238999999984003,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 11.8102877,
+                    "count": 1,
+                    "self": 11.8102877
+                },
+                "TrainerController.advance": {
+                    "total": 0.016866500000000784,
+                    "count": 1,
+                    "self": 7.600000001772855e-06,
+                    "children": {
+                        "env_step": {
+                            "total": 0.01685889999999901,
+                            "count": 1,
+                            "self": 0.00016209999999894364,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 0.016696800000000067,
+                                    "count": 1,
+                                    "self": 2.6999999999333113e-05,
+                                    "children": {
+                                        "TorchPolicy.evaluate": {
+                                            "total": 0.016669800000000734,
+                                            "count": 1,
+                                            "self": 0.016669800000000734
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.17055850000000028,
+                    "count": 1,
+                    "self": 0.00163570000000135,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.16892279999999893,
+                            "count": 1,
+                            "self": 0.16892279999999893
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
