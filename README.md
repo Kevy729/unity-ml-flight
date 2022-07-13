@@ -7,7 +7,7 @@ These motivated me to not only mess around in Unity and learn more about reinfor
 
 Many of the prefabs, materials, and flight controller/physics I got from others because my end goal was reinforcement learning flight rather than learning everything about Unity.
 
-##Resources used
+## Resources used
 1. [Simple Wings](https://github.com/brihernandez/SimpleWings)
 2. [AI Flight](https://www.udemy.com/course/ai-flight/)
 3. [Environment Package](https://assetstore.unity.com/packages/3d/environments/landscapes/simple-low-poly-nature-pack-157552)
